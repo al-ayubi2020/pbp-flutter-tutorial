@@ -49,6 +49,9 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           children: [
             // Menambahkan clickable menu
+            const Padding(
+              padding: EdgeInsets.fromLTRB(0, 30, 0, 0),
+            ),
             ListTile(
               title: const Text('Counter'),
               onTap: () {
